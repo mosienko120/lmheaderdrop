@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1630px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header{
+    height: 70px;
+    background-color: rgb(235, 234, 234);
+}
+
+.header__logo-img{
+    width: 115%;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin-top: 11px;
+}
+
+.header__nav{
+    margin-top: 25px;
+}
+
+.header__nav-inner li{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+
+.header__nav-inner a{
+    text-decoration: none;
+    color: #1CB0E7;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header__nav-drop a,
+.header__nav-drop2 a,
+.header__nav-drop3 a{
+    font-size: 17px;
+    color: #1CB0E7;
+}
+
+.header__nav-drop{
+    position: absolute;
+    background-color: rgb(235, 234, 234);
+    padding: 20px;
+    padding-top: 30px;
+    border-bottom: 3px solid #f15923;
+}
+
+.header__nav-drop2{
+    position: absolute;
+    background-color: rgb(235, 234, 234);
+    padding-top: 40px;
+    width: 140px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f15923;
+}
+
+.header__nav-drop3{
+    position: absolute;
+    background-color: rgb(235, 234, 234);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-bottom: 3px solid #f15923;
+}
+
+.header__nav-drop3 li{
+    margin-top: 10px;
+}
+
+.header__nav-drop{
+    display: none;
+}
+
+.header__nav-inner li:hover .header__nav-drop{
+    display: block;
+}
+
+.header__nav-drop2{
+    display: none;
+}
+
+.header__nav-inner li:hover .header__nav-drop2{
+    display: block;
+}
+
+.header__nav-drop3{
+    display: none;
+}
+
+.header__nav-inner li:hover .header__nav-drop3{
+    display: block;
+}
+
+.header__nav-drop:hover{
+    display: block;
+    }
+
+.header__nav-drop a{
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.header__nav-drop a:hover,
+.header__nav-drop2 a:hover,
+.header__nav-drop3 a:hover{
+    text-decoration: underline;
+}
+
+.header__nav-drop li{
+    display: block;
+    margin-top: 10px;
+    min-width: 100px;
+}
+
+.header__button{
+    margin-top: 27px;
+}
+
+.header__btn{
+    padding: 15px 15px;
+    background-color: #f15923;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: all .2s ease;
+}
+
+.header__btn:hover{
+    background-color: rgb(235, 234, 234);
+    color: #f15923;
+    border: 2px solid #f15923;
+}
+
+.header__lang{
+    margin-top: 25px;
+    color: #4f4f4f;
+}
+
+.header__lang span{
+    font-size: 17px;
+}
+
+.header__lang i{
+    font-size: 10px;
+    color: #4f4f4f;
+}
+
+.header__nav-inner i{
+    color: #f15923;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.header__info-item{
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.header__info{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.header__info i{
+    margin-right: 5px;
+}
+
+#header__info-phone-icon{
+    color: #f15923;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.header__lang-drop{
+    position: absolute;
+    padding: 40px 20px 15px 20px;
+    margin-left: 10px;
+    background-color: rgb(235, 234, 234);
+    display: none;
+    border-bottom: 3px solid #f15923;
+}
+
+.header__lang-drop a{
+    text-decoration: none;
+}
+
+.header__lang span:hover .header__lang-drop{
+    display: block;
+}
+
+.header__lang-drop a:hover{
+    text-decoration: underline;
+}
+
+.header__info-item-drop{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(235, 234, 234);
+    border-bottom: 3px solid #f15923;
+}
+
+.header__info-item-drop img{
+    width: 20px;
+    display: inline-block;
+}
+
+.header__info-item-drop li{
+    margin-top: 10px;
+}
+
+.header__info-item-drop a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+.header__info-item-drop a:hover{
+    text-decoration: underline;
+}
+
+.header__info:hover .header__info-item-drop{
+    display: block;
+}
